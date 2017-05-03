@@ -22,6 +22,9 @@ We chose to utilize the DRV8833 in order to control our two motors. The DRV8833 
 
 ### Design
 
+<img src="schematic.png"/>
+
+Figure 2. Schematic of the Robot's Operating System
 
 We utilized a 28 pin MSP430G2553 in order to maximize the number of pins we could use. The most significant advantage is that we are able to drive 4 separate channels of PWM in order to fully control 2 motors. The advantage of using PWM is that it allows us to control to speed as well as the direction of the robot. This is important because if the robot is moving too fast, it won't have enough time to react to cliffs. Additionally, if the robot tries to switch directions too quickly, it will jump, which can disrupt the IMU.
 
