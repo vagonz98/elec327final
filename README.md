@@ -10,6 +10,9 @@ Welcome to the overview of our cliff-detecting robot! If you're interested in lo
 ### Concept
 The goal of this project was to design a robot that utilizes SPI to communicate with an inertial measurement unit to allow the robot to react to its environment, in this case backing up when it detects that its driving off a cliff. In order to demonstrate this functionality, the robot uses PWM signals to drive a pair of motors, allowing the robot to move around in different directions and at different speeds. We were originally going to use PIR sensors to detect objects moving toward our robot, and have our robot move in the opposite direction of these objects.  After running several tests, though, we realized that the PIR sensors we were using were not able to perform at the accuracy or precision we would have needed for this project.  Therefore, we changed our project from a “hide and seek” robot to a “cliff detecting robot”.
 
+<img src="robot.jpg" alt="hi" class="inline"/>
+
+Figure 1. Image of Robot
 
 
 ### MPU9250 Inertial Measurement Unit 
