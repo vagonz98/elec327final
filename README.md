@@ -5,7 +5,13 @@
 -Victor Gonzalez
 -Joshua Phipps
 
-Welcome to the overview of our cliff-detecting robot! If you're interested in looking at our demo video, head [here](http://www.youtube.com/watch?v=5AqDvhuFCWw), but for a full run-down check out our presentation video [here](http://www.youtube.com/watch?v=SUiz2lATAr0).
+Welcome to the overview of our cliff-detecting robot! If you're interested in looking at our demo video, click here:
+
+[![Demo](https://img.youtube.com/vi/5AqDvhuFCWw/0.jpg)](https://www.youtube.com/watch?v=5AqDvhuFCWw)
+
+But for a full run-down check out our presentation video here:
+
+[![Presentation](https://img.youtube.com/vi/SUiz2lATAr0/0.jpg)](https://www.youtube.com/watch?v=SUiz2lATAr0)
 
 ### Concept
 The goal of this project was to design a robot that utilizes SPI to communicate with an inertial measurement unit to allow the robot to react to its environment, in this case backing up when it detects that its driving off a cliff. In order to demonstrate this functionality, the robot uses PWM signals to drive a pair of motors, allowing the robot to move around in different directions and at different speeds. We were originally going to use PIR sensors to detect objects moving toward our robot, and have our robot move in the opposite direction of these objects.  After running several tests, though, we realized that the PIR sensors we were using were not able to perform at the accuracy or precision we would have needed for this project.  Therefore, we changed our project from a “hide and seek” robot to a “cliff detecting robot”.
