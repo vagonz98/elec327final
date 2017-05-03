@@ -4,6 +4,8 @@ Welcome to the overview of our cliff-detecting robot! If you're interested in lo
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<img src="elec327final/robot.jpeg" alt="hi" class="inline"/>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
