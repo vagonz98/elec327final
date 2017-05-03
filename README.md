@@ -10,9 +10,6 @@ Welcome to the overview of our cliff-detecting robot! If you're interested in lo
 ### Concept
 The goal of this project was to design a robot that utilizes SPI to communicate with an inertial measurement unit to allow the robot to react to its environment, in this case backing up when it detects that its driving off a cliff. In order to demonstrate this functionality, the robot uses PWM signals to drive a pair of motors, allowing the robot to move around in different directions and at different speeds. We were originally going to use PIR sensors to detect objects moving toward our robot, and have our robot move in the opposite direction of these objects.  After running several tests, though, we realized that the PIR sensors we were using were not able to perform at the accuracy or precision we would have needed for this project.  Therefore, we changed our project from a “hide and seek” robot to a “cliff detecting robot”.
 
-<img src="robot.jpg" alt="hi" class="inline"/>
-
-Figure 1. Image of Robot
 
 
 ### MPU9250 Inertial Measurement Unit 
@@ -25,9 +22,6 @@ We chose to utilize the DRV8833 in order to control our two motors. The DRV8833 
 
 ### Design
 
-<img src="schematic.png" alt="hi" class="inline"/>
-
-Figure 2. Schematic of the Robot's Operating System
 
 We utilized a 28 pin MSP430G2553 in order to maximize the number of pins we could use. The most significant advantage is that we are able to drive 4 separate channels of PWM in order to fully control 2 motors. The advantage of using PWM is that it allows us to control to speed as well as the direction of the robot. This is important because if the robot is moving too fast, it won't have enough time to react to cliffs. Additionally, if the robot tries to switch directions too quickly, it will jump, which can disrupt the IMU.
 
